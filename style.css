@@ -1,0 +1,102 @@
+.footer {
+  color: rgb(80, 30, 190);
+  text-align: center;
+}
+
+span {
+  color: white;
+  color: rgb(80, 30, 190);
+  font-weight: 400;
+}
+
+#wikiData a {
+  color: rgb(200,30,120);
+  font-weight: bold;
+}
+
+.linkDiv {
+  margin-bottom: 20px;
+  background: rgb(235,238,238);
+  border-radius: 5px;
+  font-family: 'Raleway', sans-serif;
+}
+
+#searchIcon {
+  padding-right: 55px;
+  color: rgb(200,30,120);
+}
+
+#randBtn {
+  color: rgb(0,62,116);
+}
+
+form {
+  margin-top: 100px;
+  text-align: center;
+}
+
+.paddingUp {
+  margin-top: 10px;
+}
+
+#box {
+  margin: 0 auto;
+  width: 450px;
+}
+
+body {
+  background: #4776E6;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #8E54E9, #4776E6);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #8E54E9, #4776E6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+#iconDiv {
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+input[type=search] {
+	-webkit-appearance: textfield;
+	-webkit-box-sizing: content-box;
+	font-family: inherit;
+	font-size: 100%;
+}
+input::-webkit-search-decoration,
+input::-webkit-search-cancel-button {
+	display: none;
+}
+
+input[type=search] {
+  margin-top: 50px;
+  border: solid 2px #ccc;
+  padding: 9px 10px 9px 20px;
+  width: 130px;
+  
+  -webkit-transition: all .5s;
+  -moz-transition: all .5s;
+  transition: all .5s;
+  
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  border-radius: 50px;
+}
+
+input[type=search]:focus {
+  width: 200px;
+  background-color: rgb(235,238,238);
+  border-color: #6dcff6;
+  outline: none;
+  
+  -webkit-box-shadow: 0 0 5px rgba(109,207,246,.5);
+  -moz-box-shadow: 0 0 5px rgba(109,207,246,.5);
+  -box-shadow: 0 0 5px rgba(109,207,246,.5);
+}
+
+input[type=search]:hover {
+  background-color: rgb(212,239,252)
+}
+
+hr {
+  border: 0.3px solid white;
+}
